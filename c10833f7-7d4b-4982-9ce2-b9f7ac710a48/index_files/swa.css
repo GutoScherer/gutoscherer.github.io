@@ -1,0 +1,738 @@
+@CHARSET "ISO-8859-1";
+
+/* genericos  */
+
+/* corrige o menu da nav */
+.dropdown-menu {
+  left: auto !important;
+  right: 0 !important;
+  position: absolute !important;
+}
+
+/**
+	imagem preto e branco
+**/
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE */
+}
+
+
+/* para quebrar o texto do botao, caso seja muito grande */
+.btn-wrap-text {
+    white-space:normal !important;
+    word-wrap: break-word; 
+}
+
+.breadcrumb {
+	text-transform: uppercase;
+}
+
+.modal-body{
+	background: #f8f8f8;
+}
+
+.dropdown-menu {
+	position: absolute; 
+	will-change: top, left; 
+	top: 38px; 
+	left: 0px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+
+/* Fim genericos  */
+
+/* sidebar */
+.app-brand-logo-link {
+	margin: 0 auto;
+	/* margin-left: 4rem !important; */
+}
+/* fim sidebar */
+
+/* nav bar imagem */
+
+.nav-profile-image-height {
+	height: 44px !important;
+}
+
+.navbar-imagem-dropdown-profile {
+	max-height: 44px !important;
+	max-width: 44px !important;
+}
+
+.nav-dropdown-aluno-org {
+	line-height: 12pt !important;
+}
+
+.nav-dropdown-org-name {
+	font-size: 6pt !important;
+}
+
+
+/* Fim nav bar imagem */
+
+/* tela de login */
+
+.client-login-background {
+	background-size: cover !important;
+	background-repeat: no-repeat  !important;
+	background-color: #F8F8F8;
+}
+
+/* fim tela de login */
+
+/* menus  */
+
+
+
+/* Fim menus  */
+
+/* dashboard */
+/*.card-topo-dashboard {
+	min-height: 290px;
+}*/
+
+/* fim dashboard */
+
+/* notas */
+
+a.btn-detalhar-todas-notas{
+    color: #4E5155 !important;
+}
+
+.botao-detalhar-faltas {
+	margin-left: 5px;
+}
+
+.botao-detalhar-faltas-disabled {
+	color: #D8D8D8 !important;
+} 
+
+.visualizar-nota-col-disciplina {
+	min-width: 14.5rem;
+}
+.visualizar-nota-col-periodo {
+	min-width: 7.25rem;
+}
+
+.visualizar-nota-col-faltas {
+	min-width: 25rem;
+}
+
+.visualizar-nota-col-situacao {
+	min-width:12.25rem;
+}
+
+/* notas */
+
+/* status de matriculas disciplina */
+
+.md-APROVADO, .md-APROVADO_PARECER_DESCRITIVO, .md-APROVADO_EXAME{
+	background-color: rgb(157,215,158);
+	color: white;
+}
+
+.md-Pendente {
+	background-color: transparent;
+	color: black;
+}
+
+.md-REPROVADO_NOTA_FREQUENCIA, .md-REPROVADO_NOTA, .md-REPROVADO_FREQUENCIA {
+	background-color: rgb(241,166,166);
+	color: white;
+}
+
+.md-REPROVADO_PERIODO {
+	background-color: rgb(255,160,64);
+	color: white;
+}
+
+.md-EM_EXAME {
+	background-color: rgb(238,223,117);
+	color: white;
+}
+
+.md-CANCELADO, .md-TRANCADO {
+	background-color: rgb(221,108,108);
+	color: white;
+}
+
+.md-MATRICULADO, .md-FALTA_LANCAR_NOTA, .md-CURSANDO {
+	background-color: rgb(141,171,182);
+	color: white;
+}
+
+.md-SUFICIENTE {
+	background-color: rgb(157,215,158);
+	color: white;
+}
+
+.md-DISPENSADO {
+	background-color: rgb(240,206,139);
+	color: white;
+}
+
+.md-NAO_OPTOU {
+	background-color: rgb(136,118,64);
+	color: white;
+}
+
+.md-EQUIVALENCIA_EXCEPCIONAL {
+	background-color: rgb(205,190,169);
+	color: black;
+}
+
+.md-INFREQUENTE {
+	background-color: rgb(255,255,208);
+	color: black;
+}
+
+.md-APROVEITAMENTO_EXTERNO {
+	background-color: rgb(250,176,65);
+	color: white;
+}
+
+/* Fim status de matriculas disciplina */
+
+
+/* CORES PARA OS STATUS DA MATRICULA */
+
+.mat-ATIVA{
+	background-color: #76c07d;
+	color: white;
+}
+
+.mat-CANCELADA{
+	background-color: rgb(255, 200, 0);
+	color: white;
+}
+
+.mat-TRANCADA{
+	background-color: rgb(255, 0, 0);
+	color: white;
+}
+
+.mat-AGUARDANDO{
+	background-color: rgb(155,186,195);
+}
+
+.mat-INFREQUENTE, .mat-DESISTENTE{
+	background-color: rgb(192, 192, 192);
+}
+
+.mat-REPROVADO{
+	background-color: rgb(255, 128, 128);
+	color: white;
+}
+
+.mat-APROVADO, .mat-APROVADO_PARECER_DESCRITIVO, .mat-APROVADO_PARCIALMENTE {
+	background-color: rgb(192, 224, 192);
+}
+
+.mat-REMANEJADA{
+	background-color: rgb(205, 178, 199);
+}
+
+/* FIM CORES PARA OS STATUS DA MATRICULA */
+
+/* CORES PARA OS STATUS DA ATUALIZACAO CADASTRAL */
+
+.CAD-PENDENTE{
+	background-color: rgb(255,255,10);
+	font-weight: bold;
+}
+
+.CAD-CONCLUIDO{
+	background-color: rgb(192, 224, 192);
+	font-weight: bold;
+}
+
+.CAD-CANCELADO{
+	background-color: #fad9d0;
+	font-weight: bold;
+}
+
+/* FIM - CORES PARA OS STATUS DA ATUALIZACAO CADASTRAL */
+
+/* STATUS DOS DOCS DO ALUNO */
+
+.DOC_NAO_AVALIADO{
+	color: rgb(159,158,156);
+	font-weight: bold;
+}
+
+.DOC_INDEFERIDO{
+	color: rgb(168,40,45);
+	font-weight: bold;
+}
+
+.DOC_DEFERIDO{
+	color: rgb(48,140,62);
+	font-weight: bold;
+}
+/* fim STATUS DOS DOCS DO ALUNO */
+
+/* avaliacao institucional */
+
+.label-APROVADO, .APROVADO, .label-CONFIRMADA, .CONFIRMADA, .AVALIACAO-CONCLUIDA{
+	background-color: #4c8b4a;
+}
+
+.AVALIACAO-PENDENTE{
+	background-color: rgb(155,186,195);
+}
+
+/* Fim avaliacao institucional */
+
+/* financeiro */
+
+.col-nome-table-transacao {
+	max-width: 240px !important;
+}
+
+/* 
+.tr-BAIXADA .BAIXADA{
+	background-color: #2dd652; 
+	color: white;
+}
+
+.tr-PAGO, .PAGO {
+	background-color: #347844;
+	color: white;
+}
+
+.tr-ABERTO, .ABERTO, .tr-PARCIAL, .PARCIAL{
+	background-color: #dd3f31;
+	color: white;
+}
+ */
+ 
+.tr-BAIXADA, .BAIXADA{
+	background-color: rgba(45, 214, 82, 0.7);
+	font-weight: bold;
+}
+
+.tr-PAGO, .PAGO {
+	background-color: rgba(52, 120, 68, 0.7);
+	font-weight: bold;
+}
+
+.tr-ABERTO, .ABERTO, .tr-PARCIAL, .PARCIAL{
+	background-color: rgba(221, 63, 49, 0.7);
+	font-weight: bold;
+}
+ 
+ 
+/* financeiro */
+
+/* contratos */
+
+.CONTRATO_PENDENTE{
+	background-color: rgb(150, 185, 227);
+	color: white;
+	font-weight: bold;
+}
+
+.CONTRATO_ENTREGUE{
+	background-color: rgb(255, 224, 128);
+	color: black;
+}
+
+.CONTRATO_CANCELADO{
+	background-color: rgb(255, 160, 160);
+	color: white;
+	font-weight: bold;
+}
+
+.contrato-pdf {
+	height: 550px;
+}
+
+
+
+/* Fim contratos */
+
+.card-impressao-rematricula {
+	min-height: 240px !important;
+}
+
+.panel-plano-pagamento {
+	height: 27rem;
+}
+
+/* solicitacao requerimento */
+
+/* .status-solicitacao {
+	color: black;
+	font-weight: bold;
+} */
+
+.main-timeline2  .timeline-content:after ,.main-timeline2 .timeline-content:before {
+	background: gray;
+}
+
+/* 
+.main-timeline2 .timeline-content, .main-timeline2 .icon {
+	background: #3374ff;
+}
+
+
+
+.main-timeline2 .icon {
+	border:1px solid #3374ff;
+}
+ */
+
+/* Fim solicitacao requerimento */
+
+
+
+/* full calendar */
+.fc-center {
+	margin-bottom: 0!important;
+}
+
+.fc-event,.fc-event-dot{
+	background-color: none !important;
+}
+
+.fc-tarefa-entregue {
+	background-color: rgba(161, 232, 170, 0.9) !important;
+	margin-bottom: 1px;
+}
+
+.fc-tarefa-a-ser-feita {
+	background-color: rgba(223, 220, 124, 0.9) !important;
+	margin-bottom: 1px;
+}
+
+.fc-tarefa-pendente {
+	background-color: rgba(229, 148, 148, 0.9) !important;
+	margin-bottom: 1px;
+}
+
+.fc-feriado {
+	background-color: rgba(255, 0, 4, 1) !important;
+	margin-bottom: 1px; 
+	color: white !important;
+}
+
+.fc-recesso {
+	background-color: rgba(255, 123, 0, 1) !important;
+	margin-bottom: 1px;  
+}
+
+.fc-academico {
+	background-color: rgba(255, 250, 0, 1 ) !important;
+	margin-bottom: 1px; 
+}
+
+.fc-title {
+	font-size: .6rem !important;
+}
+
+.fc-more {
+	font-size: .6rem !important;
+}
+
+/* End full calendar */
+
+/* envio atividades complementares */
+
+.env-atv-PENDENTE_AVALIACAO {
+	background-color: #85b0ef;
+	color: white;
+}
+
+.env-atv-DEFERIDO {
+	background-color: green;
+	color: white;
+}
+
+.env-atv-INDEFERIDO, .env-atv-INATIVO {
+	background-color: #990000;
+	color: white;
+}
+
+/* Fim envio atividades complementares */
+
+
+/* cartao de credito */
+
+#cartaocredito .row li {
+	float: left;
+}
+#cartaocredito img {
+	border: 0 none;
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+	width: 50px;
+	vertical-align: middle;
+}
+
+#cartaocredito .row ul {
+	list-style: none;
+	float: right;
+}	
+
+@media (max-width: 767px) {
+	#cartaocredito .row ul {
+		float: left;
+		padding-left: 0;
+	} 
+}
+
+/* Fim cartao de credito */
+
+
+/* arredondar imagem retangular */
+
+   /*  width: 75px;
+    height: 75px; */
+
+.image-cropper {
+     width: 6.25rem;
+    height: 6.25rem ;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    /* margin-bottom: 1.25rem; */
+}
+
+/* display: inline; */
+/* margin-left: 10%;  */
+.profile-pic {
+  margin: 0 auto;
+  margin-left: 0;
+  width: 8.50rem;
+  height: 8.50rem ;
+  width: auto;
+}
+
+.nav-bar-image-cropper {
+    width: 2.75rem;
+    height: 2.75rem ;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* display: inline; */
+/* margin-left: 10%;  */
+.nav-bar-profile-pic {
+  margin: 0 auto;
+  margin-left: 0;
+  width: 3.74rem;
+  height: 3.74rem ;
+  width: auto;
+}
+
+.error{
+	font-size: small;
+	color:#d9534f;
+}
+
+/* Fim arredondar imagem retangular */
+
+ /* CORES PARA STATUS SOLICITACAO BOLSA */
+ 
+.PCB-AGUARDANDO {
+	background-color: rgb(155,186,195) !important;
+}
+
+.PCB-INDEFERIDO {
+	background-color: rgb(168,40,45);
+}
+
+.PCB-DEFERIDO {
+	background-color: rgb(48,140,62);
+}
+
+.PCB-CANCELADO {
+	background-color: rgb(255,102,0);
+}
+
+/* FIM CORES PARA STATUS SOLICITACAO BOLSA */
+
+/* CORES PARA SITUACAO DOCUMENTOS BOLSA */
+
+.DPCB-NAO_AVALIADO {
+	background-color: rgb(204,204,204);
+}
+
+.DPCB-DEFERIDO {
+	background-color: rgb(0,255,51);
+}
+
+.DPCB-INDEFERIDO, .DPCB-TRUNCADO {
+	background-color: rgb(204,0,0);
+	color: white;
+}
+/* CORES PARA SITUACAO DOCUMENTOS BOLSA */
+
+.card-opa{
+	border-color: #858fd3;
+}
+.card-opa > .card-header, .card-opa > .card-footer{
+	color: #fff;
+    background-color: #858fd3;
+    border-color: #858fd3;
+}
+
+.card-api{
+	font-size: 14px;
+}
+
+.card-quero-bolsa{
+	border-color: #159db4;
+}
+.card-quero-bolsa > .card-header, .card-quero-bolsa > .card-footer{
+	color: #fff;
+    background-color: #159db4;
+    border-color: #159db4;
+}
+
+.card-orange{
+	border-color: #ef8717;
+}
+.card-orange > .card-header, .card-orange > .card-footer{
+	color: #fff;
+    background-color: #ef8717;
+    border-color: #ef8717;
+}
+
+.card-mobile-generic{
+	border-color: #e516de;
+}
+.card-mobile-generic > .card-header, .card-mobile-generic > .card-footer{
+	color: #fff;
+    background-color: #e516de;
+    border-color: #e516de;
+}
+
+.nav-overflow{
+	display:block;
+	height:75vh;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.alert-homologacao {
+    color: #804813;
+    background-color: #ffc800;
+    border-color: #c99e00;
+}
+
+.btn-multi-lines {
+    white-space:normal !important;
+    word-wrap: break-word; 
+}
+
+.btn-small-font {
+	font-size: 12px;
+}
+
+.validador-documento-pdf {
+	height: 550px;
+}
+
+.nav-doc-api {
+	min-height: 2.8125rem !important;
+}
+
+.tabs-doc-api {
+	max-width: 22rem !important;
+	min-width: 22rem !important;
+}
+
+.table-scroll {
+	height: 21.25rem !important;
+	overflow: scroll;
+}
+
+.logo-portal {
+	margin-right: .3em
+}
+
+.CPA-PENDENTE {
+	background-color: rgb(194, 200, 218);
+}
+
+.CPA-PARCIAL {
+	background-color: rgb(255, 255, 128);
+}
+
+.CPA-CONCLUIDO {
+	background-color: rgb(128, 255, 128);
+}
+
+/*
+Estilos para aplicar somente em dispositivos de telas pequenas 
+*/
+@media (max-width: 576px) {
+	.app-brand-logo {
+		flex-shrink: 1 !important; /* Requisicao 92722 */
+	}
+	
+	.app-brand {
+		flex-shrink: 1 !important; /* Requisicao 92722 */
+	}
+	
+	.navbar-brand.app-brand.demo {
+		max-width: 70% !important;
+	}
+	
+}
+
+/* Para nao aplicar o estilo no col-xs e col-sm */
+@media (min-width: 768px) { 
+	.ecourse.row > div[class*='col-'] {
+	  display: flex;
+	  flex:1 0 100%;
+	}
+}
+
+/*  */
+.collapse-text [id*='collapseItem'].collapse:not(.show) {
+  display: block;
+  width: 100%;
+  height: 260px;  
+  text-overflow: ellipsis; 
+  overflow: hidden;
+}
+/* esconder o ver mais caso o texto seja pequeno */
+
+/* [id*='collapseItem'].collapse: */
+
+.collapse-text [id*='collapseItem'].collapsing {
+  height: 260px;
+}
+
+.collapse-text a.collapsed::after {
+  content: '+ Ver mais';
+}
+
+.collapse-text a:not(.collapsed)::after {
+  content: '- Ver menos';
+}
+
+.card-ecourse {
+	width: 100%;
+}
+
+.btn-suporte{
+	background-color: rgb(255,165,0);
+	color: white;
+}
+.btn-suporte:hover{
+	background-color: rgb(255,140,0);
+	color: white;
+}
